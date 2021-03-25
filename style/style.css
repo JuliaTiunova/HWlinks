@@ -1,21 +1,22 @@
 body {
-  border: solid 20px #1979a9;
+  border: solid 20px #212e53;
+  color: #212e53;
 }
 ul {
-  background-color: #cce7e7;
+  background-color: #d5ecda;
   margin: 0;
-  border: inset 20px #e17b39;
+  border: inset 20px #4a909e;
 }
 li:first-child {
   padding-top: 20px;
 }
 li:last-child {
-  color: #e17b39;
+  color: #ce6a6b;
   font-weight: 600;
   padding-bottom: 20px;
 }
 li:nth-last-child(2) {
-  color: #e17b39;
+  color: #ce6a6b;
   font-weight: 600;
 }
 li {
