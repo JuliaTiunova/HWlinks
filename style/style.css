@@ -33,10 +33,7 @@ a:hover {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-}
-.c_1 {
   background-color: #fada67;
-  margin-top: -270px;
+  margin-top: -245px;
   margin-left: 45px;
-  z-index: inherit;
 }
