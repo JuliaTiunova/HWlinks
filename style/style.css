@@ -13,25 +13,26 @@ li:first-child {
 li:last-child {
   padding-bottom: 20px;
 }
-li:nth-last-child(3),
-li:nth-last-child(4) {
+li:nth-last-child(5),
+li:nth-last-child(6) {
   font-size: 30px;
 }
 li {
   font-family: "Gugi", cursive;
   font-size: 20px;
+  letter-spacing: 2px;
   text-shadow: 1.5px 1.5px 2px #e41376;
-  color: #fff;
   list-style-type: none;
   padding: 5px;
 }
 a {
   text-decoration: none;
   cursor: pointer;
-  color: #f8f9fa;
+  color: #e0e0e2;
 }
 a:hover {
   color: #e41376;
+  text-shadow: 1.5px 1.5px 1px #fff;
 }
 .circle {
   width: 200px;
