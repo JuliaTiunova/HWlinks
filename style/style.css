@@ -41,7 +41,7 @@ a:hover {
   background-color: #01a3c4;
   margin-top: -245px;
   margin-left: 200px;
-  box-shadow: 10px 5px 50px 20px #e41376;
+  box-shadow: 0 0 70px 20px #e41376;
 }
 .circle2 {
   width: 100px;
