@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Brandon";
+  src: url("../fonts/BrandonGrotesque-Bold.eot") format("embedded-opentype"),
+    url("../fonts/BrandonGrotesque-Bold.ttf") format("truetype"),
+    url("../fonts/BrandonGrotesque-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: block;
+}
