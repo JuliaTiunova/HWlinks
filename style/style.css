@@ -9,6 +9,20 @@
 body {
   background-color: #212025;
 }
+.header {
+  text-align: center;
+}
+.header__title {
+  font-size: 5em;
+  text-transform: uppercase;
+  line-height: 3em;
+  color: #212025;
+  text-shadow: 1px 2px 1px #f0eee5, 2px 2px 2px #212025;
+}
+.header__title:hover {
+  color: #f0eee5;
+  text-shadow: 1px 2px 1px #141316, 2px 3px 3px #c8c8c9;
+}
 main {
   width: 90%;
   margin: 0 auto;
@@ -16,12 +30,12 @@ main {
   text-align: center;
   font-family: "Brandon", sans-serif;
 }
-.title {
+.main__title {
   font-size: 2.7em;
   color: #f0eee5;
   text-shadow: 1px 2px 1px #141316, 2px 3px 3px #212025;
 }
-.title:hover {
+.main__title:hover {
   color: #434349;
   text-shadow: 1px 2px 1px #f0eee5, 2px 2px 2px #212025;
 }
@@ -35,6 +49,9 @@ main {
   width: 25%;
   margin-bottom: 25px;
   background-color: #f0eee5;
+}
+.h-1 {
+  margin-top: 1000px;
 }
 .horizontal {
   border-radius: 20px 0 0 20px;
@@ -68,6 +85,7 @@ main {
   top: 470px;
 }
 .ribbons {
+  margin-top: 200px;
   display: flex;
   justify-content: space-around;
   padding-bottom: 1000px;
