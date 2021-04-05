@@ -70,7 +70,7 @@ main {
 .ribbons {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 400px;
+  padding-bottom: 1000px;
 }
 .vertical {
   height: 1200px;
