@@ -54,6 +54,11 @@ main {
 .h-1 {
   margin-top: 1000px;
 }
+.h-1-1,
+.h-2-1,
+.h-3-1 {
+  margin-top: -580px;
+}
 .horizontal {
   border-radius: 20px 0 0 20px;
 }
