@@ -15,6 +15,7 @@ body {
 .header__title {
   font-size: 5em;
   text-transform: uppercase;
+  letter-spacing: 0.4em;
   line-height: 3em;
   color: #212025;
   text-shadow: 1px 2px 1px #f0eee5, 2px 2px 2px #212025;
