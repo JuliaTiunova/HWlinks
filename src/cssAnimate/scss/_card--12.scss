@@ -1,0 +1,27 @@
+.card--12,
+.card--24,
+.card--26 {
+  &:hover {
+    animation: cardBottomCorner 2s both 0.3s;
+  }
+
+  &:hover .card__content--12,
+  &:hover .card__content--24,
+  &:hover .card__content--26 {
+    animation: opacityOriginZ 2s both 0.3s;
+  }
+}
+
+@keyframes cardBottomCorner {
+  from {
+    -ms-transform-origin-y: 100%;
+    -webkit-transform-origin-y: 100%;
+
+    transform: rotateX(0) rotateY(0) rotateZ(360deg);
+  }
+
+  to {
+    background-image: none;
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+}

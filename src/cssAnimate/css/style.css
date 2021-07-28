@@ -1,0 +1,851 @@
+.card--1:hover,
+.card--15:hover,
+.card--36:hover {
+  -webkit-animation: cardTurnerHorizontal 2s ease-in-out both;
+          animation: cardTurnerHorizontal 2s ease-in-out both;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 10px #333;
+          box-shadow: 2px 2px 10px #333;
+}
+
+.card--1:hover .card__content--1,
+.card--1:hover .card__content--15,
+.card--1:hover .card__content--36,
+.card--15:hover .card__content--1,
+.card--15:hover .card__content--15,
+.card--15:hover .card__content--36,
+.card--36:hover .card__content--1,
+.card--36:hover .card__content--15,
+.card--36:hover .card__content--36 {
+  -webkit-animation: opacity 2s both;
+          animation: opacity 2s both;
+}
+
+@-webkit-keyframes cardTurnerHorizontal {
+  from {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  50% {
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes cardTurnerHorizontal {
+  from {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  50% {
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@-webkit-keyframes opacity {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card--2:hover,
+.card--19:hover,
+.card--28:hover {
+  -webkit-animation: cardTurnerVertical 2s ease-in-out both;
+          animation: cardTurnerVertical 2s ease-in-out both;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 10px #333;
+          box-shadow: 2px 2px 10px #333;
+}
+
+.card--2:hover:hover .card__content--2,
+.card--2:hover:hover .card__content--19,
+.card--2:hover:hover .card__content--28,
+.card--19:hover:hover .card__content--2,
+.card--19:hover:hover .card__content--19,
+.card--19:hover:hover .card__content--28,
+.card--28:hover:hover .card__content--2,
+.card--28:hover:hover .card__content--19,
+.card--28:hover:hover .card__content--28 {
+  -webkit-animation: opacity 2s both;
+          animation: opacity 2s both;
+}
+
+@-webkit-keyframes cardTurnerVertical {
+  from {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  }
+  50% {
+    -webkit-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+
+@keyframes cardTurnerVertical {
+  from {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  }
+  50% {
+    -webkit-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+
+.card--3:hover,
+.card--13:hover,
+.card--20:hover {
+  -webkit-animation: cardSpinHorizontal 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+          animation: cardSpinHorizontal 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 10px #333;
+          box-shadow: 2px 2px 10px #333;
+}
+
+.card--3:hover:hover .card__content--3,
+.card--3:hover:hover .card__content--13,
+.card--3:hover:hover .card__content--20,
+.card--13:hover:hover .card__content--3,
+.card--13:hover:hover .card__content--13,
+.card--13:hover:hover .card__content--20,
+.card--20:hover:hover .card__content--3,
+.card--20:hover:hover .card__content--13,
+.card--20:hover:hover .card__content--20 {
+  -webkit-animation: opacity 2s both;
+          animation: opacity 2s both;
+}
+
+@-webkit-keyframes cardSpinHorizontal {
+  0% {
+    -webkit-transform: rotateY(720deg);
+            transform: rotateY(720deg);
+  }
+  100% {
+    background-image: none;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes cardSpinHorizontal {
+  0% {
+    -webkit-transform: rotateY(720deg);
+            transform: rotateY(720deg);
+  }
+  100% {
+    background-image: none;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+.card--4:hover,
+.card--21:hover,
+.card--34:hover {
+  -webkit-animation: cardSpinVertical 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+          animation: cardSpinVertical 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 10px #333;
+          box-shadow: 2px 2px 10px #333;
+}
+
+.card--4:hover:hover .card__content--4,
+.card--4:hover:hover .card__content--21,
+.card--4:hover:hover .card__content--34,
+.card--21:hover:hover .card__content--4,
+.card--21:hover:hover .card__content--21,
+.card--21:hover:hover .card__content--34,
+.card--34:hover:hover .card__content--4,
+.card--34:hover:hover .card__content--21,
+.card--34:hover:hover .card__content--34 {
+  -webkit-animation: opacity 2s both;
+          animation: opacity 2s both;
+}
+
+@-webkit-keyframes cardSpinVertical {
+  0% {
+    -webkit-transform: rotateX(720deg);
+            transform: rotateX(720deg);
+  }
+  100% {
+    background-image: none;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+
+@keyframes cardSpinVertical {
+  0% {
+    -webkit-transform: rotateX(720deg);
+            transform: rotateX(720deg);
+  }
+  100% {
+    background-image: none;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+
+.card--5:hover,
+.card--16:hover,
+.card--27:hover {
+  -webkit-animation: cardTurnerHorizontalFast 0.4s forwards 0.5s 3;
+          animation: cardTurnerHorizontalFast 0.4s forwards 0.5s 3;
+}
+
+.card--5:hover .card__content--5,
+.card--5:hover .card__content--16,
+.card--5:hover .card__content--27,
+.card--16:hover .card__content--5,
+.card--16:hover .card__content--16,
+.card--16:hover .card__content--27,
+.card--27:hover .card__content--5,
+.card--27:hover .card__content--16,
+.card--27:hover .card__content--27 {
+  -webkit-animation: opacity 0.4s forwards 0.5s 3;
+          animation: opacity 0.4s forwards 0.5s 3;
+}
+
+@-webkit-keyframes cardTurnerHorizontalFast {
+  from {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  50% {
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+@keyframes cardTurnerHorizontalFast {
+  from {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  50% {
+    -webkit-transform: rotateY(90deg);
+            transform: rotateY(90deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+}
+
+.card--6:hover,
+.card--14:hover,
+.card--30:hover {
+  -webkit-animation: cardTurnerVerticalFast 0.4s forwards 0.5s 3;
+          animation: cardTurnerVerticalFast 0.4s forwards 0.5s 3;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 10px #333;
+          box-shadow: 2px 2px 10px #333;
+}
+
+.card--6:hover .card__content--6,
+.card--6:hover .card__content--14,
+.card--6:hover .card__content--30,
+.card--14:hover .card__content--6,
+.card--14:hover .card__content--14,
+.card--14:hover .card__content--30,
+.card--30:hover .card__content--6,
+.card--30:hover .card__content--14,
+.card--30:hover .card__content--30 {
+  -webkit-animation: opacity 0.4s forwards 0.5s 3;
+          animation: opacity 0.4s forwards 0.5s 3;
+}
+
+@-webkit-keyframes cardTurnerVerticalFast {
+  from {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  }
+  50% {
+    -webkit-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+
+@keyframes cardTurnerVerticalFast {
+  from {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  }
+  50% {
+    -webkit-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+
+.card--7:hover,
+.card--18:hover,
+.card--32:hover {
+  -webkit-animation: cardRotate 1s both;
+          animation: cardRotate 1s both;
+}
+
+.card--7:hover .card__content--7,
+.card--7:hover .card__content--18,
+.card--7:hover .card__content--32,
+.card--18:hover .card__content--7,
+.card--18:hover .card__content--18,
+.card--18:hover .card__content--32,
+.card--32:hover .card__content--7,
+.card--32:hover .card__content--18,
+.card--32:hover .card__content--32 {
+  -webkit-animation: opacityRotate 1s both;
+          animation: opacityRotate 1s both;
+}
+
+@-webkit-keyframes cardRotate {
+  from {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes cardRotate {
+  from {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes opacityRotate {
+  25% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacityRotate {
+  25% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.card--8:hover,
+.card--22:hover,
+.card--29:hover {
+  -webkit-animation: cardRotateFast cubic-bezier(0.68, -0.55, 0.265, 1.55) 2s both;
+          animation: cardRotateFast cubic-bezier(0.68, -0.55, 0.265, 1.55) 2s both;
+}
+
+.card--8:hover .card__content--8,
+.card--8:hover .card__content--22,
+.card--8:hover .card__content--29,
+.card--22:hover .card__content--8,
+.card--22:hover .card__content--22,
+.card--22:hover .card__content--29,
+.card--29:hover .card__content--8,
+.card--29:hover .card__content--22,
+.card--29:hover .card__content--29 {
+  -webkit-animation: opacityRotate 2s both;
+          animation: opacityRotate 2s both;
+}
+
+@-webkit-keyframes cardRotateFast {
+  from {
+    -webkit-transform: rotate(-720deg);
+            transform: rotate(-720deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes cardRotateFast {
+  from {
+    -webkit-transform: rotate(-720deg);
+            transform: rotate(-720deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes opacityRotate {
+  25% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.card--9:hover,
+.card--17:hover,
+.card--35:hover {
+  -webkit-animation: cardOrigin3d 2s both;
+          animation: cardOrigin3d 2s both;
+}
+
+.card--9:hover .card__content--9,
+.card--9:hover .card__content--17,
+.card--9:hover .card__content--35,
+.card--17:hover .card__content--9,
+.card--17:hover .card__content--17,
+.card--17:hover .card__content--35,
+.card--35:hover .card__content--9,
+.card--35:hover .card__content--17,
+.card--35:hover .card__content--35 {
+  -webkit-animation: opacityRotate 2s both;
+          animation: opacityRotate 2s both;
+}
+
+@-webkit-keyframes cardOrigin3d {
+  from {
+    -webkit-transform: rotateX(180deg) rotateY(20deg) rotateZ(180deg);
+            transform: rotateX(180deg) rotateY(20deg) rotateZ(180deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+@keyframes cardOrigin3d {
+  from {
+    -webkit-transform: rotateX(180deg) rotateY(20deg) rotateZ(180deg);
+            transform: rotateX(180deg) rotateY(20deg) rotateZ(180deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+@keyframes opacityRotate {
+  25% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.card--10:hover,
+.card--23:hover,
+.card--31:hover {
+  -webkit-animation: cardOriginZ 2s both 0.3s;
+          animation: cardOriginZ 2s both 0.3s;
+}
+
+.card--10:hover .card__content--10,
+.card--10:hover .card__content--23,
+.card--10:hover .card__content--31,
+.card--23:hover .card__content--10,
+.card--23:hover .card__content--23,
+.card--23:hover .card__content--31,
+.card--31:hover .card__content--10,
+.card--31:hover .card__content--23,
+.card--31:hover .card__content--31 {
+  -webkit-animation: opacityOriginZ 2s both 0.3s;
+          animation: opacityOriginZ 2s both 0.3s;
+}
+
+@-webkit-keyframes cardOriginZ {
+  from {
+    -ms-transform-origin-z: 250px;
+    -webkit-transform-origin-z: 250px;
+    -webkit-transform: rotateX(0) rotateY(360deg) rotateZ(0);
+            transform: rotateX(0) rotateY(360deg) rotateZ(0);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+@keyframes cardOriginZ {
+  from {
+    -ms-transform-origin-z: 250px;
+    -webkit-transform-origin-z: 250px;
+    -webkit-transform: rotateX(0) rotateY(360deg) rotateZ(0);
+            transform: rotateX(0) rotateY(360deg) rotateZ(0);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+@-webkit-keyframes opacityOriginZ {
+  30% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacityOriginZ {
+  30% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.card--11:hover,
+.card--25:hover,
+.card--33:hover {
+  -webkit-animation: cardOriginZVertical 2s both 0.3s;
+          animation: cardOriginZVertical 2s both 0.3s;
+}
+
+.card--11:hover .card__content--11,
+.card--11:hover .card__content--25,
+.card--11:hover .card__content--33,
+.card--25:hover .card__content--11,
+.card--25:hover .card__content--25,
+.card--25:hover .card__content--33,
+.card--33:hover .card__content--11,
+.card--33:hover .card__content--25,
+.card--33:hover .card__content--33 {
+  -webkit-animation: opacityOriginZ 2s both 0.3s;
+          animation: opacityOriginZ 2s both 0.3s;
+}
+
+@-webkit-keyframes cardOriginZVertical {
+  from {
+    -ms-transform-origin-z: 250px;
+    -webkit-transform-origin-z: 250px;
+    -webkit-transform: rotateX(360deg) rotateY(0) rotateZ(0);
+            transform: rotateX(360deg) rotateY(0) rotateZ(0);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+@keyframes cardOriginZVertical {
+  from {
+    -ms-transform-origin-z: 250px;
+    -webkit-transform-origin-z: 250px;
+    -webkit-transform: rotateX(360deg) rotateY(0) rotateZ(0);
+            transform: rotateX(360deg) rotateY(0) rotateZ(0);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+.card--12:hover,
+.card--24:hover,
+.card--26:hover {
+  -webkit-animation: cardBottomCorner 2s both 0.3s;
+          animation: cardBottomCorner 2s both 0.3s;
+}
+
+.card--12:hover .card__content--12,
+.card--12:hover .card__content--24,
+.card--12:hover .card__content--26,
+.card--24:hover .card__content--12,
+.card--24:hover .card__content--24,
+.card--24:hover .card__content--26,
+.card--26:hover .card__content--12,
+.card--26:hover .card__content--24,
+.card--26:hover .card__content--26 {
+  -webkit-animation: opacityOriginZ 2s both 0.3s;
+          animation: opacityOriginZ 2s both 0.3s;
+}
+
+@-webkit-keyframes cardBottomCorner {
+  from {
+    -ms-transform-origin-y: 100%;
+    -webkit-transform-origin-y: 100%;
+    -webkit-transform: rotateX(0) rotateY(0) rotateZ(360deg);
+            transform: rotateX(0) rotateY(0) rotateZ(360deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+@keyframes cardBottomCorner {
+  from {
+    -ms-transform-origin-y: 100%;
+    -webkit-transform-origin-y: 100%;
+    -webkit-transform: rotateX(0) rotateY(0) rotateZ(360deg);
+            transform: rotateX(0) rotateY(0) rotateZ(360deg);
+  }
+  to {
+    background-image: none;
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Monoton", sans-serif;
+}
+
+.screen {
+  margin: 0 auto;
+  padding-top: 30px;
+  max-width: 1290px;
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1198.98px) {
+  .screen {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 998.98px) {
+  .screen {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .screen {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 585.98px) {
+  .screen {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background: url(../img/vintage.jpeg) center center no-repeat;
+  max-width: 310px;
+  height: 420px;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  padding: 5px;
+  -webkit-box-shadow: -2px 2px 8px #333;
+          box-shadow: -2px 2px 8px #333;
+  -webkit-transition: -webkit-box-shadow ease 2s;
+  transition: -webkit-box-shadow ease 2s;
+  transition: box-shadow ease 2s;
+  transition: box-shadow ease 2s, -webkit-box-shadow ease 2s;
+  font-size: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1198.98px) {
+  .card {
+    height: 300px;
+  }
+}
+
+@media (max-width: 998.98px) {
+  .card {
+    height: 250px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .card {
+    width: 100%;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    height: 400px;
+  }
+}
+
+@media (max-width: 585.98px) {
+  .card {
+    height: 400px;
+  }
+}
+
+.card:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 10px #333;
+          box-shadow: 2px 2px 10px #333;
+}
+
+.card__content {
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #ecede6;
+  border: 4px solid #ed6177;
+  border-radius: 8px;
+  opacity: 0;
+}
+
+.card__content img {
+  width: 100px;
+  height: 100px;
+}
+
+.card__content .corner-piece--top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+}
+
+.card__content .corner-piece--top img {
+  width: 30px;
+  height: 30px;
+}
+
+.card__content .corner-piece {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  font-size: 18px;
+}
+
+.card__content .corner-piece img {
+  width: 30px;
+  height: 30px;
+}
+
+.card__content .corner-piece--top {
+  top: 0;
+  left: 0;
+}
+
+.card__content .corner-piece--bottom {
+  bottom: 0;
+  right: 0;
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+}
+/*# sourceMappingURL=style.css.map */

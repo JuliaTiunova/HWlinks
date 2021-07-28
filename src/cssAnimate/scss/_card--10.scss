@@ -1,0 +1,35 @@
+.card--10,
+.card--23,
+.card--31 {
+  &:hover {
+    animation: cardOriginZ 2s both 0.3s;
+  }
+
+  &:hover .card__content--10,
+  &:hover .card__content--23,
+  &:hover .card__content--31 {
+    animation: opacityOriginZ 2s both 0.3s;
+  }
+}
+
+@keyframes cardOriginZ {
+  from {
+    -ms-transform-origin-z: 250px;
+    -webkit-transform-origin-z: 250px;
+    transform: rotateX(0) rotateY(360deg) rotateZ(0);
+  }
+
+  to {
+    background-image: none;
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+@keyframes opacityOriginZ {
+  30% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

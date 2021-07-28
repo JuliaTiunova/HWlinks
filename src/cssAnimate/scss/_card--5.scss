@@ -1,0 +1,26 @@
+.card--5,
+.card--16,
+.card--27 {
+  &:hover {
+    animation: cardTurnerHorizontalFast 0.4s forwards 0.5s 3;
+  }
+
+  &:hover .card__content--5,
+  &:hover .card__content--16,
+  &:hover .card__content--27 {
+    animation: opacity 0.4s forwards 0.5s 3;
+  }
+}
+
+@keyframes cardTurnerHorizontalFast {
+  from {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+  to {
+    background-image: none;
+    transform: rotateY(0deg);
+  }
+}

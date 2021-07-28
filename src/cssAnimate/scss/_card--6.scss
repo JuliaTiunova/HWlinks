@@ -1,0 +1,28 @@
+.card--6,
+.card--14,
+.card--30 {
+  &:hover {
+    animation: cardTurnerVerticalFast 0.4s forwards 0.5s 3;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #333;
+  }
+
+  &:hover .card__content--6,
+  &:hover .card__content--14,
+  &:hover .card__content--30 {
+    animation: opacity 0.4s forwards 0.5s 3;
+  }
+}
+
+@keyframes cardTurnerVerticalFast {
+  from {
+    transform: rotateX(180deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  to {
+    background-image: none;
+    transform: rotateX(0deg);
+  }
+}

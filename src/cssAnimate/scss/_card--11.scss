@@ -1,0 +1,28 @@
+.card--11,
+.card--25,
+.card--33 {
+  &:hover {
+    animation: cardOriginZVertical 2s both 0.3s;
+  }
+
+  &:hover .card__content--11,
+  &:hover .card__content--25,
+  &:hover .card__content--33 {
+    animation: opacityOriginZ 2s both 0.3s;
+  }
+}
+
+@keyframes cardOriginZVertical {
+  from {
+    // -ms-transform-origin-y: 100%;
+    // -webkit-transform-origin-y: 100%;
+    -ms-transform-origin-z: 250px;
+    -webkit-transform-origin-z: 250px;
+    transform: rotateX(360deg) rotateY(0) rotateZ(0);
+  }
+
+  to {
+    background-image: none;
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+}

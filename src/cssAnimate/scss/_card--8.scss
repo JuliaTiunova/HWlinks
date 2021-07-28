@@ -1,0 +1,33 @@
+.card--8,
+.card--22,
+.card--29 {
+  &:hover {
+    animation: cardRotateFast cubic-bezier(0.68, -0.55, 0.265, 1.55) 2s both;
+  }
+
+  &:hover .card__content--8,
+  &:hover .card__content--22,
+  &:hover .card__content--29 {
+    animation: opacityRotate 2s both;
+  }
+}
+
+@keyframes cardRotateFast {
+  from {
+    transform: rotate(-720deg);
+  }
+
+  to {
+    background-image: none;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes opacityRotate {
+  25% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

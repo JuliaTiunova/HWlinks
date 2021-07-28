@@ -1,0 +1,33 @@
+.card--9,
+.card--17,
+.card--35 {
+  &:hover {
+    animation: cardOrigin3d 2s both;
+  }
+
+  &:hover .card__content--9,
+  &:hover .card__content--17,
+  &:hover .card__content--35 {
+    animation: opacityRotate 2s both;
+  }
+}
+
+@keyframes cardOrigin3d {
+  from {
+    transform: rotateX(180deg) rotateY(20deg) rotateZ(180deg);
+  }
+
+  to {
+    background-image: none;
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+@keyframes opacityRotate {
+  25% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
